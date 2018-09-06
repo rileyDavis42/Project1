@@ -1,0 +1,302 @@
+/*FONT MADPPAKE NOT FOR COMMERCIAL USE, DOWNLOADED FROM 1001fonts.com*/
+@font-face{
+    font-family: Madpakke;
+    src: url("fonts/madpakkeDEMO.otf") format("opentype");
+}
+body{
+    margin: 0;
+    padding: 0;
+    /*background-color: #ffecaf;*/
+    width: 100%;
+    height: 100%;
+    background: url("img/burger-hero.jpg") no-repeat center center fixed;
+}
+#header{
+    background-color: #e74c3c;
+    width: 100%;
+    height: 7vw;
+}
+#logo{
+    font-family: Madpakke, sans-serif;
+    font-size: 6vw;
+    transform: scale(0.5, 0.5);
+    text-decoration: none;
+    margin-top: 20%;
+    margin-left: 10vh;
+}
+.about{
+    font-family: Madpakke, sans-serif;
+    font-size: 3vw;
+    text-decoration: none;
+    color: black;
+    margin-top: 20%;
+    margin-left: 10vh;
+}
+#background{
+    width: 100%;
+}
+.center{
+    margin: auto;
+}
+
+#backgroundBlur{
+    background: rgba(255, 236, 175, 0.9) url("img/burger-hero.jpg") no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    position: absolute;
+    left: 50%;
+    margin: 10vh auto auto -40vw;
+    text-align: center;
+    width: 80vw;
+    overflow: hidden;
+    border-radius: 25px;
+    z-index: -1;
+}
+
+#content{
+    margin: 10vh auto auto;
+    text-align: center;
+    width: 80vw;
+    overflow: hidden;
+    /*height: 80vh;*/
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    background: rgba(255, 236, 175, 0.8);
+}
+
+#scrollDown{
+    height: 30vw;
+}
+
+#title{
+    font-size: 4em;
+    font-family: Madpakke, sans-serif;
+}
+.title{
+    font-size: 3em;
+    font-family: Madpakke, sans-serif;
+}
+#footer {
+    background-color: #ffecaf;
+    width: 100%;
+    height: 5vh;
+    bottom: 0;
+    font-weight: lighter;
+}
+#footerTxt{
+    font-size: 12px;
+    font-family: Poppins, sans-serif;
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.answer{
+    display: none;
+}
+.p2{
+    color: brown;
+}
+
+.red{
+    color: red;
+}
+.paragraph{
+    margin-top: 10px;
+    line-height: 1;
+}
+
+.spacer{
+    height: 10vh;
+}
+
+.spacerBig{
+    height: 20vh;
+}
+
+.foodCategory{
+    font-family: Madpakke, sans-serif;
+    font-size: 60px;
+    margin-right: 30vh;
+    transition: 1s;
+    display: inline;
+}
+
+.foodCategory:hover{
+    font-size: 80px;
+    transition: font-size 1s;
+}
+
+#categories{
+    margin: auto;
+}
+
+#menuItems{
+    line-height: 0.75;
+    margin-top: 10vh;
+    margin-right: 25vh;
+    width: 100%;
+}
+
+.column{
+    margin-top: 10vh;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+textarea{
+    resize: none;
+}
+
+label{
+    font-size: 20px;
+}
+
+input[type="submit"]
+{
+    border: 0;
+    box-shadow: none;
+    border-radius: 10px;
+    background: white;
+    font-family: Poppins, sans-serif;
+    height: 5vh;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+input:required{
+    border: 1px solid black;
+}
+
+input:required:invalid{
+    border: 1px solid red;
+}
+
+#locations{
+    display: inline-block;
+    line-height: 0.5;
+}
+
+.location{
+    display: inline-block;
+    padding: 10px;
+}
+
+.map{
+    width: 20vw;
+    height: 20vw;
+    opacity: 1;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+form{
+    margin: auto auto;
+    text-align: left;
+    width: 60vw;
+}
+
+video{
+    width: 50vw;
+    height: 30vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background: url("img/burger-hero.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    #header {
+        height: 30vw;
+    }
+
+    #logo {
+        font-size: 10vw;
+        justify-content: left;
+    }
+
+    .about {
+        font-size: 6vw;
+    }
+
+    #backgroundBlur{
+        width: 100vw;
+        margin: 10vh auto auto -50vw;
+    }
+
+    #content{
+        width: 100vw;
+    }
+
+    .location {
+        display: block;
+    }
+
+    video {
+        width: 50vh;
+    }
+
+    #scrollDownTxt{
+        font-size: 0px;
+    }
+
+    .map{
+        width: 80vw;
+        height: 80vw;
+    }
+
+    h2{
+        line-height: 1.5;
+        font-size: 7vw;
+    }
+
+    p{
+        line-height: 1.5;
+        font-size: 4vw;
+    }
+    #scrollDown{
+        height: 5vw;
+    }
+
+    form{
+        width: 80vw;
+    }
+
+    form h2{
+        font-size: 5vw;
+    }
+
+    form label{
+        font-size: 60px;
+    }
+
+    form input{
+        font-size: 60px;
+    }
+
+    form input[type="checkbox"]{
+        width: 50px;
+        height: 50px;
+    }
+
+    form select{
+        width: 20vw;
+        height: 10vw;
+        font-size: 25px;
+    }
+
+    form input[type="submit"]{
+        text-align: center;
+        width: 15vw;
+        margin: auto auto;
+    }
+}
