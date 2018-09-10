@@ -17,13 +17,29 @@
 <div id="backgroundBlur"></div>
 <div id="content">
      <h1 id="title">FAQ</h1>
-     <h2><a href="#" onclick="show('a1')">Q: Why is Rocky Burger so expensive?</a></h2>
-     <h3 id="a1"></h3>
-
-     <h2 style="transition: 1s; margin-top: 10vh; text-align: center;"><a href="#a2" onclick="show('a2')">Q: Where does your beef come from?</a> </h2>
-     <h3 id="a2"></h3>
+     <h2><a href="javascript: void(0);" onclick="show('a1')">Q: Why is Rocky Burger so expensive?</a></h2>
+        <div id="a1" class="answer">
+         <h3>
+             We focus on making meals with the best and freshest ingredients, like
+             humanely-raised beef that is ground fresh each day, organic chicken,
+             and Rockey Family Dairy’s organic cream for our ice cream cones,
+             sundaes and shakes.
+             Our commitment to freshness and quality means higher prices than
+             you’d find at traditional fast-food burger chains. It also means food
+             that tastes way better — because, well, it is
+         </h3>
+        </div>
+     <h2 style="margin-top: 10vh; text-align: center;">
+         <a href="javascript: void(0);" onclick="show('a2')">Q: Where does your beef come from?</a> </h2>
+     <div class="answer" id="a2">
+         <h3>We source our humanely-raised, vegetarian-fed beef from local,
+             family-owned ranches. We use an 85% to 15% protein to fat blend, a
+             mixture of the lean protein and the marbling found on in a cut of steak
+             for our ground beef. The mixture is ground daily, and thus, our
+             burgers taste so amazing.</h3>
+     </div>
      <div class="spacer"></div>
-     <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </div>
 <div class="spacerBig"></div>
 <div id="footer">

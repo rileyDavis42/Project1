@@ -96,9 +96,7 @@ a{
     text-decoration: none;
     color: black;
 }
-.answer{
-    display: none;
-}
+
 .p2{
     color: brown;
 }
@@ -147,6 +145,15 @@ a{
     margin-top: 10vh;
     justify-content: space-around;
     font-weight: bold;
+}
+.answer{
+    overflow: hidden;
+}
+
+#a1, #a2{
+    transition: max-height 1s linear;
+    max-height: 0;
+    transition-delay: 0s;
 }
 
 textarea{
@@ -298,5 +305,8 @@ video{
         text-align: center;
         width: 15vw;
         margin: auto auto;
+    }
+    .answer{
+        font-size: 20px;
     }
 }
