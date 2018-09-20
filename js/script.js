@@ -22,8 +22,3 @@ function updateBlur(){
     let contentHeight = document.getElementById("content").offsetHeight;
     document.getElementById("backgroundBlur").style.height = contentHeight + 'px';
 }
-
-function test(){
-    alert("Test has been called");
-    document.getElementById("testShow").style.maxHeight =  '200px';
-}
